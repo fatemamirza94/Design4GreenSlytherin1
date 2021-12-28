@@ -1,0 +1,52 @@
+﻿id,name,country_id,Recommendation
+1,ARCH-1,1,Apply an approach that guarantees NR aspects
+2,ARCH-10,1,Integrate the teams into the project
+3,ARCH-2,1,Anticipate the operation of services
+4,ARCH-3,1,MaNaNge data life
+5,ARCH-4,1,Control and measure the impacts
+6,ARCH-5,1,Limit volumes in exchanges
+7,ARCH-6,1,Limit volumes in exchanges
+8,ARCH-7,1,"Associate data, flows, applications and security to allow their identification and traceability"
+9,ARCH-8,1,Anticipate impacts on production
+10,ARCH-9,1,Define the project's NR objectives and their adequacy in the operatioNaNl context
+11,BCK-1,2,Reduce the impact of data from its storage and access
+12,BCK-2,2,"Use technical components that improve NR, safety and performance aspects"
+13,BCK-3,2,Limit the volume of exchanges 
+14,BCK-4,2,Use development principles that reduce impacts
+15,BCK-5,2,Control regulatory aspects
+16,BCK-6,2,Set up a methodology that promotes the consideration of NR aspects
+17,CTN-1,3,Apply an editorial approach for content
+18,CTN-2,3,Reduce the footprint of static content
+19,CTN-3,3,"Avoid active content, keep dyNaNmic content under user control"
+20,CTN-4,3,Facilitate the perception of content by the user
+21,CTN-5,3,Ensure the link between content and uses
+22,FRT-1,4,Validate the scope and functioNaNl coverage of the project
+23,FRT-10,4,Look for the implementation of sober behaviors
+24,FRT-2,4,Unite teams and target audience
+25,FRT-3,4,Use environments and tools that limit impacts
+26,FRT-4,4,Reduce the effects of obsolescence
+27,FRT-5,4,Implement and develop functioNaNlities to limit impacts
+28,FRT-6,4,Ensure that the use of the service allows the control of impacts
+29,FRT-7,4,Limit the use of hardware components or sensors on user termiNaNls
+30,FRT-8,4,Facilitate the use of the service under good conditions for all users
+31,FRT-9,4,Implement technical solutions with the lowest impact
+32,SPC-1,5,Organize project human resources to eNaNble the NR approach to be taken into account
+33,SPC-2,5,Include users in NR project resources
+34,SPC-3,5,Organize the project methodology to allow the application of an NR approach
+35,SPC-4,5,Build the scope of the project and validate the relevance of each feature
+36,SPC-5,5,Prepare monitoring of the project life cycle and NR performance / benefit indicators
+37,SPC-6,5,Determine the production environment in which the project will be built and deployed in accordance with NR principles
+38,STR-1,6,Define and validate the needs and challenges of the project in order to anticipate the impacts
+39,STR-2,6,"Plan, prepare and validate the availability of Human Resources in Responsible Digital"
+40,STR-3,6,Determine and plan the capacity to monitor and capitalize on the Digital components Project maNaNger
+41,STR-4,6,"Plan, prepare and validate the technical elements of the project for compliance with Responsible Digital"
+42,UX-1,7,Integrate Responsible Digital into the major objectives of the project
+43,UX-10,7,"Value: design an ethical Digital Service, in line with your values"
+44,UX-2,7,Raise awareness among interNaNl and exterNaNl stakeholders about Responsible Digital
+45,UX-3,7,Make the digital service available and accessible to the greatest number of users
+46,UX-4,7,ENaNble people with disabilities or those suffering from impairments to access and use the digital service effectively
+47,UX-5,7,"""Less is More"": Focus on essential features and simplify your interface"
+48,UX-6,7,ENaNbling users to reduce their impacts
+49,UX-7,7,"""Barebone Iteration"": Iterate your solution until minimalism ""acceptable"" by your users"
+50,UX-8,7,"Media engineering: lightening the digital service media as much as possible (images, animations, content, etc.)"
+51,UX-9,7,Value: be transparent with your users

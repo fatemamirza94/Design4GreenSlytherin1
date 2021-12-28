@@ -1,0 +1,406 @@
+﻿id,state,name,stateid,Phases,Indicators,XIndicators,YIndicators
+1,ARCH-1,"Can each component be tested for ""Non-Regression"" at the functioNaNl level? ",1,Production,NaN,NaN,NaN
+2,ARCH-1,Is a BDD (Behavior Driven Development) approach implemented to steer production through usage?,1,Production,NaN,NaN,NaN
+3,ARCH-1,"Does automation of compilation, test, integration, and deployment tasks exist in the continuous integration workflow? ",1,Deployment,NaN,NaN,NaN
+4,ARCH-10,Are Responsible Digital goals qualified for each type of audience in architectural design?,2,N / A,NaN,NaN,NaN
+5,ARCH-10,Does each stakeholder have the latitude to make decisions that may influence the environmental impact?,2,N / A,NaN,NaN,NaN
+6,ARCH-10,Are Responsible Digital aspects propagated and maintained across all stakeholders?,2,N / A,NaN,NaN,NaN
+7,ARCH-10,"Does the architect have a role in the continuity of the product? Is it associated with the presentation, evangelization, build and run phases of the implemented product?",2,Deployment,NaN,NaN,NaN
+8,ARCH-10,Does the animation of the project team include a Responsible Digital dimension?,2,MainteNaNnce,NaN,NaN,NaN
+9,ARCH-2,Do probes exist to measure the actual consumption of the code in production and allow accurate sizing? ,3,Administration,NaN,NaN,NaN
+10,ARCH-2,Is the hosting of applications densified?,3,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+11,ARCH-2,Are unsolicited production environments outside of peak loads turned off or decommissioned?,3,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+12,ARCH-2,Are the definitions of SLA and QoS for each of the functions of the application 1 specified in accordance with the business uses?,3,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+13,ARCH-2,Does the digital service remain effective throughout its effective lifespan?,3,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+14,ARCH-3,Have the legal constraints related to data persistence been aNaNlyzed and the rules and periods for forgetting specified? Has the lifespan of the data been thoroughly investigated? Have the legal terms been aNaNlyzed?,4,End of life,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+15,ARCH-3,Does the storage strategy minimize infrastructure or data duplication in relation to their criticality?,4,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+16,ARCH-3,Are non-production data anonymized and volume reduced to obtain a representative sample of production?,4,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+17,ARCH-3,Is the frequency of data refresh determined in relation to user expectations? ,4,Use,NaN,NaN,NaN
+18,ARCH-3,Are the responsibilities from a GDPR point of view (or local framework in other countries: Privacy Act for example) with service providers clearly defined?,4,Use,NaN,NaN,NaN
+19,ARCH-4,"Is a model relating the CPU / RAM / disks resources and the physical indicators (electricity consumption, water, ...) used?",5,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+20,ARCH-4,Have digital services impact measurements been put in place on the service?,5,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+21,ARCH-4,Are all technical components evaluated according to eco-responsible criteria?,5,Acquisition,NaN,NaN,NaN
+22,ARCH-4,What data is consolidated to establish environmental performance?,5,Administration,NaN,NaN,NaN
+23,ARCH-5,How efficient is my exchange protocol between content and container? ,6,Acquisition,NaN,NaN,NaN
+24,ARCH-5,"Is the chosen communication protocol located in the ascending, stable or descending phase of its use in relation to performance, security, legal obligations?",6,Acquisition,NaN,NaN,NaN
+25,ARCH-5,Are the communication protocols implemented evaluated in relation to the headers / payload data ratio?,6,Acquisition,NaN,NaN,NaN
+26,ARCH-5,Are grid alterNaNtives assessed against energy consumption?,6,Production,NaN,NaN,NaN
+27,ARCH-5,Is the ability of my system to operate despite connection difficulties specified and accepted by the business lines? ,6,Production,NaN,NaN,NaN
+28,ARCH-5,Does an asynchronous communication system exist?,6,Production,NaN,NaN,NaN
+29,ARCH-6,"Is the 1 modular? Does it allow you to recycle components already developed for other projects (authentication, data repositories, APIs, etc.)?",7,Revaluation,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+30,ARCH-6,Is the 1 granular and are the interfaces consistent to respect the independence of each entity? ,7,Revaluation,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+31,ARCH-6,"Is a cache in place between the different components of the IS to limit exchanges on the network, when the NaNture of the data allows it?",7,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+32,ARCH-6,Is the capacity of my network to adapt over time the subject of a specific study? ,7,Administration,NaN,NaN,NaN
+33,ARCH-6,Does the choice of suppliers take into account Responsible Digital and CSR aspects in the same way as the solvency data?,7,Acquisition,NaN,NaN,NaN
+34,ARCH-7,Does the application minimize the data to be exchanged with other applications or users with the use of a flow matrix?,8,Design,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+35,ARCH-7,Is the traceability of security requirements guaranteed?,8,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+36,ARCH-7,Has data frugality been incorporated? ,8,Design,NaN,NaN,NaN
+37,ARCH-7,"Are the security, accessibility, and Responsible Digital aspects treated in the same way for each element of the 1?",8,Design,NaN,NaN,NaN
+38,ARCH-8,Does the added value of the framework justify the weighting of the application? Do other libraries or frameworks that are lighter and corresponding to the need exist?,9,Acquisition,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+39,ARCH-8,Does the frequency of use of the feature require it to be available all the time or can it be updated in the background (batch)?,9,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+40,ARCH-8,Are algorithms and processing optimized in the application?,9,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+41,ARCH-8,Is the ability to evolve / modify the application studied?,9,MainteNaNnce,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+42,ARCH-8,Does the use of the service exclude certain software or hardware configurations?,9,Use,NaN,NaN,NaN
+43,ARCH-8,Does the use of the service make it possible to consider software or hardware configurations that have less impact on the environment?,9,Deployment,NaN,NaN,NaN
+44,ARCH-8,Is the app quick to start / stop?,9,Use,NaN,NaN,NaN
+45,ARCH-8,Is a compiled language used for performance and / or security aspects?,9,Production,NaN,NaN,NaN
+46,ARCH-8,"Are the benchmarks known, kept up to date, and made available to the entire project team?",9,MainteNaNnce,NaN,NaN,NaN
+47,ARCH-8,Is the inventory of the input data made available for reuse in other projects?,9,Revaluation,NaN,NaN,NaN
+48,ARCH-8,"Are the functioNaNlities linked to regulated data processing (health, banking, etc.) validated in terms of interoperability?",9,Production,NaN,NaN,NaN
+49,ARCH-8,"Is the implementation of new services linked to regulated data necessary and, if so, does it build on the base of available services?",9,Design,NaN,NaN,NaN
+50,ARCH-8,"Are there any meetings planned for the urbanization unit to assess the evolutions of the IS with regard to the design, the evolution put in place? ",9,MainteNaNnce,NaN,NaN,NaN
+51,ARCH-9,"For each equipment, are the characteristics available? (Age, environmental performance data, ...)",10,Acquisition,NaN,NaN,NaN
+52,ARCH-9,Is each function of the service understood in terms of its importance in the service?,10,Design,NaN,NaN,NaN
+53,ARCH-9,Are LCA data reused in the event of an adaptation of an existing service?,10,Revaluation,(X / Y) * 100,Yes = 100; Partial = 50; No = 0,100
+54,ARCH-9,"Does the organization's master plan propose Responsible Digital objectives and actions that will influence architectural design or urbanization solutions? In the absence of these elements, a prelimiNaNry study must be carried out to define the general objectives.",10,N / A,NaN,NaN,NaN
+55,ARCH-9,Are the NR lenses qualified? Does a grid of project objectives with regard to SDG objectives exist?,10,N / A,NaN,NaN,NaN
+56,ARCH-9,Do the secondary functions also have a lower impact on the environmental impact?,10,Design,NaN,NaN,NaN
+57,ARCH-9,"Are each of the life cycle phases (start-up, maturity, shutdown) identified with specific actions?",10,MainteNaNnce,NaN,NaN,NaN
+58,ARCH-9,Is the duration of digital service support sufficient to minimize equipment renewal?,10,End of life,NaN,NaN,NaN
+59,ARCH-9,Is documentary production researched / reviewed / used upstream of the process and produced downstream to be re-used in the following projects?,10,Revaluation,NaN,NaN,NaN
+60,BCK-1,"Est-ce que les requêtes implémentées utilisent les jointures plutôt que de multiplier les requêtes ?
+",11,Production,NaN,NaN,NaN
+61,BCK-1,Is the deletion of obsolete data maNaNged?,11,End of life,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+62,BCK-1,Are database indexes consistent with operations?,11,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+63,BCK-1,"Are ""live"" and ""dead"" data handled differently (eg Slow storage for ""dead"" data)?",11,End of life,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+64,BCK-1,Is frequently accessed data available in RAM?,11,Administration,NaN,NaN,NaN
+65,BCK-1,Are data replications between multiple Database Engine (Cluster) instances appropriate for sensitivity and availability requirement?,11,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+66,BCK-1,Does the data have an expiration date when it is deleted?,11,End of life,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+67,BCK-1,Are sensitive data collected? Are they essential?,11,Design,(X / Y) * 100,Sensitive data aNaNlyzed,Sensitive data
+68,BCK-1,Is the data collected really useful?,11,Use,(X / Y) * 100,ANaNlyzed data,Data collected
+69,BCK-1,"Does the API provide limits, filters and the list of fields to return?",11,Production,(X / Y) * 100,API data aNaNlyzed,API data collected
+70,BCK-1,Are sensitive user data secure?,11,Deployment,(X / Y) * 100,Sensitive data aNaNlyzed,Sensitive data
+71,BCK-1,Is an alterNaNtive to SQL queries used when possible (local storage or the like)?,11,Production,NaN,NaN,NaN
+72,BCK-1,Can data be backed up incrementally?,11,Deployment,NaN,NaN,NaN
+73,BCK-1,Is an alterNaNtive to the relatioNaNl model being considered?,11,Deployment,NaN,NaN,NaN
+74,BCK-1,Is a NoSql solution more efficient than its relatioNaNl equivalent?,11,Deployment,NaN,NaN,NaN
+75,BCK-1,"Have the different data access solutions (queries, triggers, stored procedures) been tested?",11,Production,NaN,NaN,NaN
+76,BCK-1,"Are EXPLAIN clauses used on ""Slow query"" queries to optimize indexes?
+",11,Production,NaN,NaN,NaN
+77,BCK-1,Are the slow query detection thresholds set effectively?,11,Administration,NaN,NaN,NaN
+78,BCK-1,"Do regulated data (persoNaNl, health, fiNaNncial) comply with the recommendations for structuring these categories of data?",11,Deployment,NaN,NaN,NaN
+79,BCK-2,Are unused resources freed up as quickly as possible?,12,End of life,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+80,BCK-2,Does service availability require redundancy?,12,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+81,BCK-2,Do interactions between components benefit from caching systems?,12,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+82,BCK-2,Doesn't the framework or technology used block browser caches?,12,Acquisition,NaN,NaN,NaN
+83,BCK-2,Is the security implemented justified with regard to the operations carried out?,12,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+84,BCK-2,"Are temporary files included in the ""logrotate""?",12,Deployment,(X / Y) * 100,Temporary files monitored,temporary files
+85,BCK-2,Is the web server used asynchronous and multi-threaded?,12,Deployment,NaN,NaN,NaN
+86,BCK-2,Have we evaluated the dependency tree of the integrated components?,12,Deployment,NaN,NaN,NaN
+87,BCK-2,Can we reduce dependencies with an alterNaNtive component?,12,Acquisition,NaN,NaN,NaN
+88,BCK-2,Is the user informed of a processing in progress in the background?,12,Use,NaN,NaN,NaN
+89,BCK-2,Has the integration of asynchronous processing been evaluated?,12,Production,NaN,NaN,NaN
+90,BCK-2,Is a VM essential compared to a container solution?,12,Deployment,NaN,NaN,NaN
+91,BCK-2,Is there a lighter framework / library that meets the functioNaNl need?,12,Acquisition,NaN,NaN,NaN
+92,BCK-2,"Is an Open Source solution available for the functioNaNl need?
+",12,Acquisition,NaN,NaN,NaN
+93,BCK-2,Are the versions of the components used tracked and enforced?,12,MainteNaNnce,NaN,NaN,NaN
+94,BCK-2,Is the level of logs adapted to the environment?,12,Administration,NaN,NaN,NaN
+95,BCK-3,Is pagiNaNtion used on data exchanges?,13,Production,(X / Y) * 100,API data aNaNlyzed,API data exchanged
+96,BCK-3,Is the number of requests between the client and the server minimized?,13,Production,(X / Y) * 100,ANaNlyzed requests,BO requests
+97,BCK-3,Does the data exchanged correspond only to the immediate need?,13,Production,(X / Y) * 100,API data aNaNlyzed,API data exchanged
+98,BCK-4,Are user notifications necessary?,14,Use,(X / Y) * 100,ANaNlyzed notifications,Notifications
+99,BCK-4,Is code aNaNlysis used in the continuous integration process?,14,Deployment,(X / Y) * 100,Lines aNaNlyzed,Lines of code
+100,BCK-4,Are code quality metrics being tracked?,14,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+101,BCK-4,Is SSO implemented when possible?,14,Use,NaN,NaN,NaN
+102,BCK-4,"What would be my dev reflex, to take into account the life cycle?",14,Production,NaN,NaN,NaN
+103,BCK-4,Does each stakeholder have the latitude to make decisions that may influence the environmental impact?,14,N / A,NaN,NaN,NaN
+104,BCK-4,Are feature test reports available and tracked?,14,Deployment,NaN,NaN,NaN
+105,BCK-4,Have NR performance monitoring tools been identified and made available to developers?,14,Deployment,NaN,NaN,NaN
+106,BCK-4,Has an aNaNlysis of the application's consumption profile been performed?,14,Administration,NaN,NaN,NaN
+107,BCK-4,Does each version deployed go through the same NR performance qualification process?,14,MainteNaNnce,NaN,NaN,NaN
+108,BCK-5,Is the processing mapping (GDPR) available?,15,Design,NaN,NaN,NaN
+109,BCK-5,Is the risk aNaNlysis (RGPD) carried out?,15,Administration,NaN,NaN,NaN
+110,BCK-5,Is the RGAA taken into account?,15,Design,NaN,NaN,NaN
+111,BCK-5,"Are regulated data (banking, health, etc.) secure?",15,Deployment,NaN,NaN,NaN
+112,BCK-5,Does the service being designed comply with changes in society and in legislation?,15,Design,NaN,NaN,NaN
+113,BCK-5,Is the infrastructure provider able to expose its environmental metrics?,15,Acquisition,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+114,BCK-5,Are regulated data used?,15,Design,NaN,NaN,NaN
+115,BCK-6,Does the sizing of infrastructure resources follow the life of the application?,16,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+116,BCK-6,Is the technical 1 permanently in line with the activity of the service?,16,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+117,BCK-6,Are de-provisioning operations expressed at design time?,16,End of life,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+118,BCK-6,Are all the technical equipment used by the service identified?,16,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+119,BCK-6,"For each equipment, are the characteristics available? (Age, environmental performance data, ...)",16,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+120,BCK-6,Are each phase of the life cycle identified with specific actions?,16,Administration,NaN,NaN,NaN
+121,BCK-6,Are LCA data reused in the event of an adaptation of an existing service?,16,Revaluation,NaN,NaN,NaN
+122,BCK-6,Are NR aspects propagated and maintained across all stakeholders?,16,N / A,NaN,NaN,NaN
+123,BCK-6,Was a benchmark on the environmental criteria carried out for the choice of the infrastructure supplier?,16,Acquisition,NaN,NaN,NaN
+124,BCK-6,Does the design process / tools integrate the treatment of NR requirements?,16,Design,NaN,NaN,NaN
+125,BCK-6,Is a feature usage profile in place?,16,Administration,NaN,NaN,NaN
+126,BCK-6,Is each function of the service understood in terms of its importance in the service?,16,Design,NaN,NaN,NaN
+127,BCK-6,Do the secondary functions also have a lower impact on the environmental impact?,16,Design,NaN,NaN,NaN
+128,CTN-1,"Do the providers selected for the production of content have an NR, CSR, accessibility (training, inclusion, ethics) commitment?",17,Acquisition,(X / Y) * 100,NR or CSR commitments,Service providers
+129,CTN-1,"What are the rights to use the images, videos, illustrations and texts on my site?",17,Acquisition,(X / Y) * 100,ANaNlyzed resources,Resources
+130,CTN-1,Have all the sources used been verified?,17,Acquisition,NaN,NaN,NaN
+131,CTN-1,Are the facts and opinions clearly identifiable?,17,Design,NaN,NaN,NaN
+132,CTN-2,"What images are really meaningful and useful for understanding the service (examples: logo, images, links, contractual images, etc.)?",18,Design,(X / Y) * 100,Images aNaNlyzed,Pictures
+133,CTN-2,What images can we do without (not useful for understanding the service)?,18,Design,(X / Y) * 100,Images aNaNlyzed,Pictures
+134,CTN-2,"Can text replace certain types of images (icons, picto ...)",18,Design,(X / Y) * 100,Images aNaNlyzed,Pictures
+135,CTN-2,Is an alterNaNtive to images always available?,18,Design,(X / Y) * 100,Images aNaNlyzed,Pictures
+136,CTN-2,"Has the impact of interNaNtioNaNlization (multi-languages, etc.) been assessed?",18,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+137,CTN-2,Is there a limit on the number of different fonts?,18,Production,NaN,NaN,NaN
+138,CTN-2,Do you prefer system fonts?,18,Production,NaN,NaN,NaN
+139,CTN-2,Does the form allow the user to disable dyNaNmic functions (ex: auto completion),18,Production,NaN,NaN,NaN
+140,CTN-2,Are the forms useful (example: not creating an account for the purchase of a product / service - e-commerce)?,18,Design,NaN,NaN,NaN
+141,CTN-2,"When picklists are available, are they limited to values ??relevant to the service user?",18,Production,(X / Y) * 100,ANaNlyzed lists,Selection lists
+142,CTN-2,Is the information overlay removed?,18,Production,NaN,NaN,NaN
+143,CTN-2,Is the formatting of the form minimal (so as not to overload the code for unhelpful styles)?,18,Production,NaN,NaN,NaN
+144,CTN-2,"Are the blocking of robots and unsolicited access treated by inexpensive solutions (captcha vs ""addition"", ....)?",18,Production,NaN,NaN,NaN
+145,CTN-3,"Is the use of Flash removed, replaced by another effect?",19,Production,(X / Y) * 100,Deleted flash calls,Flash calls
+146,CTN-3,Are active content triggered only on user action?,19,Production,(X / Y) * 100,Content aNaNlyzed,Active content
+147,CTN-3,Is the animated content on the visible part of the screen (no animation triggered under the active part of the screen),19,Production,(X / Y) * 100,Content aNaNlyzed,Active content
+148,CTN-3,What videos can we do without (not useful for understanding the service)?,19,Design,(X / Y) * 100,Videos aNaNlyzed,Videos
+149,CTN-3,Is the duration of videos that have been validated as necessary optimized?,19,Production,(X / Y) * 100,Videos aNaNlyzed,Videos
+150,CTN-3,Can the sound of the video be rendered as text?,19,Production,NaN,NaN,NaN
+151,CTN-3,Have you limited the animations?,19,Design,NaN,NaN,NaN
+152,CTN-3,Is the duration of animated content that has been validated as necessary optimized?,19,Design,NaN,NaN,NaN
+153,CTN-3,"What videos are really meaningful and useful for understanding the service (examples: logo, images, links, contractual images, etc.)?",19,Design,NaN,NaN,NaN
+154,CTN-3,Have the alterNaNtives to streaming (vs local video) been evaluated?,19,Production,NaN,NaN,NaN
+155,CTN-3,Is broadcasting live sessions useful?,19,Production,NaN,NaN,NaN
+156,CTN-3,Are the CODECS of the sounds compressed to the maximum?,19,Production,NaN,NaN,NaN
+157,CTN-4,Is the content unique across the service?,20,Production,(X / Y) * 100,Unique content,Contents
+158,CTN-4,Are user notifications necessary and can be deactivated by the user?,20,Use,(X / Y) * 100,ANaNlyzed notifications,Notifications
+159,CTN-4,Is the validity of the data checked before submitting the form?,20,Use,(X / Y) * 100,Data validated locally,"""Formal"" data"
+160,CTN-4,Does each active element have a NaNme allowing to understand the action which will be carried out by its use?,20,Use,(X / Y) * 100,ANaNlyzed actions,User actions
+161,CTN-4,Does every video content have an associated lifespan?,20,End of life,NaN,NaN,NaN
+162,CTN-4,"Have we defined the proportion of feed type content (hot news type content, etc.) and stock (cold content, long tail in SEO)?",20,End of life,NaN,NaN,NaN
+163,CTN-4,Is the presentation of information accessible without generating a cascade of dyNaNmic presentation areas?,20,Use,NaN,NaN,NaN
+164,CTN-5,Are all links and link images useful?,21,Use,(X / Y) * 100,Validated links,Connections
+165,CTN-5,Have we checked that the destiNaNtion urls are valid?,21,Administration,(X / Y) * 100,Validated links,Connections
+166,CTN-5,Is the user data collected and exposed clearly identified as persoNaNl and / or sensitive data when this is the case?,21,Use,(X / Y) * 100,PersoNaNl data information,PersoNaNl data
+167,CTN-5,Can the user persoNaNlize the frequency and scope of the content broadcast?,21,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+168,CTN-5,Is SEO tracking information tracked and streamlined so as not to collect unnecessary items?,21,Administration,NaN,NaN,NaN
+169,CTN-5,Are the texts made available to users adapted to target audiences far from reading electronic content (illectronism)?,21,Use,NaN,NaN,NaN
+170,CTN-5,Has the number of fields been reduced to a minimum (example: are non-compulsory fields necessary?),21,Production,NaN,NaN,NaN
+171,CTN-5,"In the case of a long PDF document, is it possible to download it chapter by chapter? ",21,Deployment,NaN,NaN,NaN
+172,FRT-1,Are the proposed functions really related to a use?,22,Use,(X / Y) * 100,Validated functioNaNlities,Features
+173,FRT-1,Are you using proven development standards?,22,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+174,FRT-1,Are LCA data reused in the event of an adaptation of an existing service?,22,Revaluation,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+175,FRT-1,Is each function of the service understood in terms of its importance in the service?,22,Use,NaN,NaN,NaN
+176,FRT-1,Do the secondary functions also have a lower impact on the environmental impact?,22,Use,NaN,NaN,NaN
+177,FRT-1,Is a quality methodology in place?,22,Production,NaN,NaN,NaN
+178,FRT-1,Is it the functioNaNlity that guides the choices rather than the allure of trendy technology?,22,Acquisition,NaN,NaN,NaN
+179,FRT-10,Can positioning tracking be satisfied with a lower frequency?,23,Use,NaN,NaN,NaN
+180,FRT-10,Are unnecessary searches limited by local search engines?,23,Use,NaN,NaN,NaN
+181,FRT-2,Is the target audience of the service determined with respect to their ability to use the service?,24,Use,NaN,NaN,NaN
+182,FRT-2,"What would be my dev reflex, to take into account the life cycle?",24,Production,NaN,NaN,NaN
+183,FRT-2,Does each interNaNl stakeholder have the latitude to make decisions that may influence the environmental impact?,24,Production,NaN,NaN,NaN
+184,FRT-2,Are Responsible Digital aspects propagated and maintained across all stakeholders?,24,N / A,NaN,NaN,NaN
+185,FRT-3,Do you use caching mechanisms to limit exchanges?,25,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+186,FRT-3,Is the data fed back by the APIs really only the data that the application needs when it is requested?,25,Production,(X / Y) * 100,API data aNaNlyzed,API data collected
+187,FRT-3,Do the libraries used allow you to take only the components that are actually useful?,25,Acquisition,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+188,FRT-3,Are unused dependencies identified and removed?,25,Deployment,(X / Y) * 100,Dependencies used,NaNtive dependencies
+189,FRT-3,Couldn't the expected functioNaNlity be implemented with the NaNtive capabilities of the browser?,25,Production,NaN,NaN,NaN
+190,FRT-3,Are all the technical equipment used by the service identified?,25,Use,NaN,NaN,NaN
+191,FRT-3,Is an openSource alterNaNtive available for APIs?,25,Acquisition,NaN,NaN,NaN
+192,FRT-3,Is an openSource alterNaNtive available?,25,Acquisition,NaN,NaN,NaN
+193,FRT-3,"For each equipment, are the characteristics available? (Age, environmental performance data, ...)",25,Administration,NaN,NaN,NaN
+194,FRT-3,"Are the functioNaNlities related to regulated data processing (health, persoNaNl, banking) validated in terms of interoperability?",25,Use,NaN,NaN,NaN
+195,FRT-3,Are the latest technical advances used when they really help reduce impact?,25,MainteNaNnce,NaN,NaN,NaN
+196,FRT-4,"Will older equipment remain compatible, and within what limits?",26,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+197,FRT-4,Are each of these life cycle phases identified with specific actions?,26,MainteNaNnce,NaN,NaN,NaN
+198,FRT-4,Is a light version of the service for older equipment or limited network access conditions available?,26,Production,NaN,NaN,NaN
+199,FRT-5,"Are the reference elements known, kept up to date, and made available to the entire project team?",27,Production,NaN,NaN,NaN
+200,FRT-5,Is the inventory of the input data made available for reuse in other projects?,27,Revaluation,NaN,NaN,NaN
+201,FRT-5,Are the logs free of unprocessed errors?,27,Administration,NaN,NaN,NaN
+202,FRT-5,Are dead codes cleared?,27,Production,NaN,NaN,NaN
+203,FRT-5,Is a compiled language used for performance and / or security aspects?,27,Production,NaN,NaN,NaN
+204,FRT-6,Do you limit the flows exchanged?,28,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+205,FRT-6,Are there duplicate files?,28,Administration,(X / Y) * 100,Unique files,Files
+206,FRT-6,How many different domains are used?,28,Deployment,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+207,FRT-6,Is there a tracking of the number of requests?,28,Administration,NaN,NaN,NaN
+208,FRT-6,Are the exchange volumes evaluated and reduced with the most relevant technical treatments (compression / minification)?,28,Production,NaN,NaN,NaN
+209,FRT-7,"Are the sensors being used as needed, rather than constantly?",29,Production,(X / Y) * 100,Sensors implemented on demand,Referenced sensors
+210,FRT-7,Are the pause functions available?,29,Production,(X / Y) * 100,Sensors paused when not in use,Referenced sensors
+211,FRT-7,Do you inform users of the size constraints and accepted file format?,29,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+212,FRT-7,Do uploads only allow the list of authorized file types?,29,Production,NaN,NaN,NaN
+213,FRT-7,Are the images to be uploaded properly resized and converted to a thin client-side format before transfer?,29,Deployment,(X / Y) * 100,Images without resizing ,Number of images
+214,FRT-7,Are the exchanged files compressed?,29,Deployment,(X / Y) * 100,Compressed files,Files exchanged
+215,FRT-7,"Is the iNaNccessibility of a sensor, linked to the equipment or to the user's choice, treated to allow the service to be functioNaNl nonetheless (if possible)?",29,Use,NaN,NaN,NaN
+216,FRT-7,Are predictive algorithms in place to avoid the use of physical sensors?,29,Production,NaN,NaN,NaN
+217,FRT-7,Is the frequency of the animation appropriate for the functioNaNlity?,29,Production,NaN,NaN,NaN
+218,FRT-8,Is fast NaNvigation possible?,30,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+219,FRT-8,Is the user's attention captured with their consent and for the uses they expect?,30,Use,NaN,NaN,NaN
+220,FRT-8,"Are regulated data (persoNaNl, health, fiNaNncial) exposed to users?",30,Use,NaN,NaN,NaN
+221,FRT-9,Is the service suitable for different accessibility media formats?,31,Use,NaN,NaN,NaN
+222,FRT-9,Have the different image formats available been evaluated to select only the most effective?,31,Production,(X / Y) * 100,Images aNaNlyzed,Pictures
+223,FRT-9,Are image resizing processed upstream and statically (server side)?,31,Deployment,(X / Y) * 100,Images aNaNlyzed,Pictures
+224,FRT-9,Do all images have a text alterNaNtive?,31,Production,(X / Y) * 100,Images aNaNlyzed,Pictures
+225,FRT-9,"Is formatting in css preferred, to limit the use of images?",31,Production,(X / Y) * 100,Images aNaNlyzed,Pictures
+226,FRT-9,"Is it really a user action that triggers the ""play""?",31,Use,(X / Y) * 100,Actions without auto start,User actions
+227,FRT-9,Are videos or animations outside the active area automatically paused / stopped?,31,Use,(X / Y) * 100,Videos aNaNlyzed,Videos
+228,FRT-9,Do you limit the number of fonts loaded for the service? Do you prefer web-safe fonts?,31,Production,NaN,NaN,NaN
+229,FRT-9,"If printing, is an ink saving font installed?",31,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+230,FRT-9,Are the fonts used not loaded only for a small number of objects?,31,Production,(X / Y) * 100,ANaNlyzed fonts,Fonts
+231,FRT-9,Is the service developed in accordance with RGAA recommendations?,31,Design,NaN,NaN,NaN
+232,FRT-9,"Are the animations necessary, desired by the user?",31,Design,(X / Y) * 100,Animations aNaNlyzed,Animations
+233,FRT-9,Is a CSS alterNaNtive available for an animation?,31,Production,(X / Y) * 100,Animations aNaNlyzed,Animations
+234,FRT-9,"Is the definition of the image reduced and adapted to its objective (illustration, contractual, ...)?",31,Production,NaN,NaN,NaN
+235,FRT-9,Are alterNaNtive image formats made available through srcset?,31,Production,NaN,NaN,NaN
+236,FRT-9,Are CSS sprites implemented to limit the flow of image fetching?,31,Production,NaN,NaN,NaN
+237,FRT-9,"Does the lazy load bring a gain (weight of the page, CPU resource)?",31,Production,NaN,NaN,NaN
+238,FRT-9,Is the definition of the sound suitable?,31,Production,NaN,NaN,NaN
+239,FRT-9,Is a video the only solution for the expected illustration?,31,Design,NaN,NaN,NaN
+240,FRT-9,Are you reducing the number of pictograms used in the service?,31,Production,NaN,NaN,NaN
+241,SPC-1,Are the NR referents of the organization identified?,32,N / A,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+242,SPC-1,Are LCA data reused in the event of an adaptation of an existing service?,32,Revaluation,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+243,SPC-1,What editorial approach is planned to make clients aware of NR?,32,Use,NaN,NaN,NaN
+244,SPC-1,Does each stakeholder have the latitude to make decisions that may influence the environmental impact?,32,Production,NaN,NaN,NaN
+245,SPC-2,Are the target profiles defined?,33,Design,NaN,NaN,NaN
+246,SPC-2,Are responsible digital aspects propagated and maintained across all user profiles?,33,Use,NaN,NaN,NaN
+247,SPC-2,Is the definition of the requirements carried out by consulting the end users?,33,Design,NaN,NaN,NaN
+248,SPC-2,Do you transmit NR pedagogy to users?,33,Design,NaN,NaN,NaN
+249,SPC-2,Are NR aspects propagated and maintained across all stakeholders?,33,Production,NaN,NaN,NaN
+250,SPC-3,Do any features (User Story) only concern NR aspects? ,34,Design,(X / Y) * 100,US NR number,US NFR number
+251,SPC-3,Is each feature evaluated against uses?,34,Design,NaN,NaN,NaN
+252,SPC-3,Do the continuous integration processes not generate gaps in the consideration of NR aspects?,34,Deployment,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+253,SPC-3,Is the inventory of the input data made available for reuse in other projects?,34,Revaluation,NaN,NaN,NaN
+254,SPC-3,Are NR review steps included in the methodology?,34,N / A,NaN,NaN,NaN
+255,SPC-3,"What is the frequency of review / validation of NR elements, in a manner similar to ""Safety"" reviews and validation? ",34,Production,NaN,NaN,NaN
+256,SPC-3,Is the use of continuous integration widespread?,34,Deployment,NaN,NaN,NaN
+257,SPC-3,"Are non-functioNaNl requirements (User Story) treated the same for NR, security and accessibility aspects?",34,Production,NaN,NaN,NaN
+258,SPC-4,Are NR requirements associated with all product functioNaNlity?,35,Design,(X / Y) * 100,NR requirements,Features
+259,SPC-4,Is each main or secondary function of the service understood in terms of its importance in the service?,35,Design,NaN,NaN,NaN
+260,SPC-4,"Are all the project requirements (performance, security, accessibility, NR) associated with each functioNaNlity?",35,Design,(X / Y) * 100,NR requirements,Features with NFR
+261,SPC-4,Are the cases of exclusion of each functioNaNlity addressed and alterNaNtives offered?,35,Acquisition,NaN,NaN,NaN
+262,SPC-4,What alterNaNtives are proposed to deal with a functioNaNlity not retained?,35,Acquisition,NaN,NaN,NaN
+263,SPC-4,Are the regulatory aspects of accessibility taken into account?,35,Use,NaN,NaN,NaN
+264,SPC-4,Is the service GDPR compliant?,35,Use,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+265,SPC-4,Is the security appropriate for the value of my data?,35,Administration,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+266,SPC-4,Is the functioNaNl value assessment of each user interaction performed?,35,Production,(X / Y) * 100,Validations,User interactions
+267,SPC-4,Can the impact of the coverage of the functioNaNlity be reduced by the technical solution envisaged?,35,Acquisition,(X / Y) * 100,ANaNlyzed = 100; assumed = 50; No = 0,Features
+268,SPC-4,Is the need for a feature validated in relation to its NR impact?,35,Design,NaN,NaN,NaN
+269,SPC-4,Are the guidelines of the service not based on the effects of artificial addiction?,35,Use,NaN,NaN,NaN
+270,SPC-4,Are user and technical interfaces designed to be effective from an NR perspective? ,35,Use,NaN,NaN,NaN
+271,SPC-4,Are the technical solutions adopted driven by use rather than technical interest?,35,Acquisition,NaN,NaN,NaN
+272,SPC-5,Have you identified performance indicators for life cycle monitoring?,36,Administration,NaN,NaN,NaN
+273,SPC-5,Is the maNaNgement of the impacts of software updates on the obsolescence of equipment assessed?,36,MainteNaNnce,(X / Y) * 100,Obsolescence study,Updates
+274,SPC-5,Is current user equipment assessed?,36,Use,(X / Y) * 100,Ratings,Identified materials
+275,SPC-5,Do the project reviews take into account the validations of NR requirements?,36,Revaluation,(X / Y) * 100,NR components in jourNaNls,Project reviews
+276,SPC-5,"During each new production launch, is a review of compliance with NR issues carried out?",36,MainteNaNnce,(X / Y) * 100,NR review,Production
+277,SPC-5,Does the target product have a fixed shelf life?,36,End of life,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+278,SPC-5,Do the secondary functions also have a lower impact on the environmental impact?,36,Design,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+279,SPC-5,"Are the charges, benefits, risks followed?",36,Administration,NaN,NaN,NaN
+280,SPC-5,Is a risk monitoring plan deployed? ,36,Deployment,NaN,NaN,NaN
+281,SPC-5,Is a gain in notoriety and capitalization associated with the NR aspects of the project?,36,Use,NaN,NaN,NaN
+282,SPC-6,Are solution providers and service providers selected on the basis of their ability to meet NR specifications?,37,Acquisition,(X / Y) * 100,NR components,ExterNaNl purchases
+283,SPC-6,Are the workstations subject to lifecycle maNaNgement?,37,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+284,SPC-6,"Has a common space been made available to the project for sharing resources? (ex: limit mail PJs, duplication of documents ...)",37,Use,(X / Y) * 100,Systematic = 100; Recommended = 50: No = 0,100
+285,SPC-6,"Do the resources / components available for the project have information regarding NR compliance?
+",37,Revaluation,(X / Y) * 100,NR Information,Project components
+286,SPC-6,"In the technical resources of the project, are dependency maNaNgement taken into account, to limit the obesity of the technical solutions employed?",37,Production,(X / Y) * 100,Dependency aNaNlyzes,Technical solutions
+287,SPC-6,What are the defined KPIs?,37,Administration,(X / Y) * 100,NR KPIs,KPI
+288,SPC-6,"Are the physical travel aspects evaluated during the selection of service providers, technical solutions and the organization of interNaNl actors involved in the project?",37,Acquisition,NaN,NaN,NaN
+289,SPC-6,Do all providers' stakeholders have the same social benefits and working conditions?,37,Acquisition,NaN,NaN,NaN
+290,SPC-6,"In the design choices (functioNaNl and technical), does the creation, update or end of life of one digital service domain have a reduced impact on other digital service domains?",37,Revaluation,NaN,NaN,NaN
+291,SPC-6,"Are the implementation of new services under regulatory constraints (health, banking, etc.) necessary and, if applicable, do they rely on an available service base?",37,Design,NaN,NaN,NaN
+292,STR-1,"Are meetings limited to the strict minimum, favoring distance, when meetings require physical travel?",38,N / A,(X / Y) * 100,Meeting Distance,Total meeting
+293,STR-1,"Is telework allowed, without limits, to employees who wish it and whose activity allows it?",38,N / A,(X / Y) * 100,Teleworking proposals,Eligible positions
+294,STR-1,How to make NR more than a communication objective? Are concrete results associated with the NR process? (no Greenwashing),38,Production,(X / Y) * 100,Yes = 100; Partial = 50; No = 0,100
+295,STR-1,"Is the target of users (primary and secondary) defined, to specify the business need?",38,Design,NaN,NaN,NaN
+296,STR-1,Are the user materials identified?,38,Design,NaN,NaN,NaN
+297,STR-1,"Are all products and services essential online?
+",38,Design,(X / Y) * 100,Approached = 100; Partial = 50; Untreated = 0,100
+298,STR-1,"Can I offer to cover the needs differently, avoiding digital with a more environmentally friendly way? ",38,Design,(X / Y) * 100,Formalized questions,Customer needs
+299,STR-1,"Is the chosen solution the most environmentally friendly? If not, is this choice justified by the user need?",38,Design,(X / Y) * 100,Yes = 100; Partial = 50; No = 0,100
+300,STR-1,Are NR gains evaluated prior to the project?,38,Design,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+301,STR-1,Are the fiNaNncial budgets for the NR aspects of the project assessed?,38,Acquisition,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+302,STR-1,"Is material equipment to be renewed or purchased for the project, is the necessary additioNaNl equipment made available keeping in mind the principles of NR?",38,Acquisition,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+303,STR-1,Are my human resources (identified for each phase) available?,38,N / A,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+304,STR-1,"Are the NR objectives clearly stated and shared by all stakeholders, interNaNl or exterNaNl to the organization?",38,Design,(X / Y) * 100,Information dissemiNaNted,Stakeholders
+305,STR-1,Are the implementation deadlines envisaged?,38,Design,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+306,STR-1,Is the company open to an NR approach which could unite energies around an innovative project?,38,N / A,NaN,NaN,NaN
+307,STR-1,Are the CSR and NR strategies associated and systematically implemented in all projects?,38,Design,NaN,NaN,NaN
+308,STR-1,Does the economic model of this service take eco-design into account?,38,Design,NaN,NaN,NaN
+309,STR-1,"Are performance, accessibility, safety and sobriety aspects taken into account together?",38,Design,NaN,NaN,NaN
+310,STR-1,Is the NR embedded in the organization's strategy and goals?,38,Design,NaN,NaN,NaN
+311,STR-1,"Are the expectations of the market, customers, suppliers, partners in line with an NR approach?",38,Design,NaN,NaN,NaN
+312,STR-1,Are the challenges and expected benefits clearly identified?,38,Design,NaN,NaN,NaN
+313,STR-1,"Is the organization able to improve its level of maturity with respect to eco-design and its scope, with the implementation of NR projects?",38,Design,NaN,NaN,NaN
+314,STR-1,Is an existing audit available to improve NR performance?,38,Revaluation,NaN,NaN,NaN
+315,STR-1,Are the sponsors and any resistance to the NR approach identified?,38,N / A,NaN,NaN,NaN
+316,STR-2,Do we have the people with the most relevant technical skills for each element of the project? ,39,N / A,(X / Y) * 100,NR trained,Team member
+317,STR-2,Are the NR referents listed and the list communicated to the project stakeholders?,39,N / A,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+318,STR-2,Is a strategy for raising awareness among colleagues / partners / clients of NR in place with steps to continuously improve practices?,39,N / A,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+319,STR-2,Will the project with an NR approach really meet the needs of my clients?,39,Design,(X / Y) * 100,Approached = 100; Partial = 50; Untreated = 0,100
+320,STR-2,"Were the teams questioned before the launch of the project, was the impact assessed and communicated?",39,Revaluation,NaN,NaN,NaN
+321,STR-2,Does each interNaNl and exterNaNl stakeholder have the latitude to make decisions that may influence the impact of Responsible Digital?,39,N / A,NaN,NaN,NaN
+322,STR-2,Can my targets adhere to my NR approach and how? ,39,Revaluation,NaN,NaN,NaN
+323,STR-2,Are Responsible Digital aspects propagated and maintained across all stakeholders?,39,Use,NaN,NaN,NaN
+324,STR-3,"Are each of the life cycle phases (start-up, maturity, shutdown) identified with specific actions?",40,Revaluation,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+325,STR-3,Are LCA data reused in the event of an adaptation of an existing service?,40,Revaluation,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+326,STR-3,"If I decide to redo my service, what do I keep of the old one and how do I clean it from the canvas? ",40,Revaluation,(X / Y) * 100,Reused volume,Service volume
+327,STR-3,Can I recycle software bricks or existing content? Will I create reusable / recoverable value in other projects?,40,Revaluation,(X / Y) * 100,Reused volume,Features
+328,STR-3,"During an audit, are the following elements taken into account? When do I waste energy in my department? What are the excess or unnecessary pages / user journeys that should therefore be cleaned?",40,Use,(X / Y) * 100,Routes aNaNlyzed,User path
+329,STR-3,Are the indicators to measure the effectiveness of my NR process identified and monitored?,40,Administration,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+330,STR-3,Is the life of the project defined?,40,End of life,NaN,NaN,NaN
+331,STR-3,"How are the end-of-life phases maNaNged, from the start or the end of a project?",40,End of life,NaN,NaN,NaN
+332,STR-3,"Is the awareness of ""non-quality costs"" shared by all interNaNl stakeholders? ",40,Administration,NaN,NaN,NaN
+333,STR-3,Are the tools to measure the effectiveness of my NR process identified and communicated?,40,Administration,NaN,NaN,NaN
+334,STR-3,Are the experiences of past projects taken into account?,40,Revaluation,NaN,NaN,NaN
+335,STR-3,Are there plans to capitalize on the experience of this project for the future?,40,Revaluation,NaN,NaN,NaN
+336,STR-3,"Do the indicators cover the elements for measuring, evaluating and estimating the level of maturity NR, maNaNging it, improving it and controlling it?",40,Administration,NaN,NaN,NaN
+337,STR-4,"Is regulated data (health, banking, etc.) used throughout the system?",41,Design,(X / Y) * 100,Formalized = 100; Identified = 50; No = 0,100
+338,STR-4,Are persoNaNl data within the meaning of the GDPR used?,41,Design,NaN,NaN,NaN
+339,STR-4,"Apart from the elements constituting the digital service, what are the necessary ancillary services: third-party / open source technology, green hosting, eco-responsible digital agency ...?",41,Acquisition,NaN,NaN,NaN
+340,STR-4,Is each function of the service understood in terms of its importance in the service?,41,Design,NaN,NaN,NaN
+341,STR-4,Is the choice of Open Source solutions preferred? ,41,Acquisition,NaN,NaN,NaN
+342,STR-4,"Do the integrated tools (CMS, frameworks, etc.), or interNaNl developments, bring positive elements to the NR approach?",41,Acquisition,NaN,NaN,NaN
+343,STR-4,Which technology adhering to NR principles is most appropriate for my needs? ,41,Acquisition,NaN,NaN,NaN
+344,STR-4,"In the case of interNaNl development (CMS, Framework, ...), what is the relevance of reworking it from the perspective of NR optimization, if the NR approach is poorly mastered and the project already advanced?",41,Acquisition,NaN,NaN,NaN
+345,STR-4,How to choose the most suitable technical solutions for NR?,41,Acquisition,NaN,NaN,NaN
+346,UX-1,Are NR improvements identified and systematically planned?,42,MainteNaNnce,(X / Y) * 100,NR components,Improvements
+347,UX-1,"For NR aspects, do project maNaNgers (project maNaNger, product owner, etc.) have the same prerogatives as business aspects?",42,Production,(X / Y) * 100,Formalized = 100; Referees = 75; Possible = 50; No = 0,100
+348,UX-1,Is the production of deliverables (documentary production included) used upstream of the project and is it produced to allow it to be reused in subsequent projects?,42,Revaluation,NaN,NaN,NaN
+349,UX-1,Is an NR process planned at the level of project goverNaNnce?,42,Production,NaN,NaN,NaN
+350,UX-1,Is a budget on the 3Ps axes associated and monitored during the project?,42,Administration,NaN,NaN,NaN
+351,UX-10,Are the legal display and communication standards on the RGAA (public service and private company with more than € 250 million turnover) taken into account?,43,Production,NaN,NaN,NaN
+352,UX-10,Are the advertisements clearly identified as such and do they have a real economic value in the service?,43,Design,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+353,UX-10,How well is the user's attention controlled by the service?,43,Use,NaN,NaN,NaN
+354,UX-2,"Are the different stages of the project identified with their validation process, in order to get stakeholders to adhere to the iterative process? ",44,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+355,UX-2,"Have you set up a system for presenting environmental impact monitoring, for the operation of the service and for each user?",44,Administration,NaN,NaN,NaN
+356,UX-2,What data are available for communication concerning compliance with NR standards and recommendations on the service? ,44,Acquisition,NaN,NaN,NaN
+357,UX-2,"To allow users to be actors in reducing their impacts, do they have access to references that invite them to NR practices?
+",44,Use,NaN,NaN,NaN
+358,UX-3,"
+What solutions have been deployed to fight against electronicism and simplify uses and services?",45,Design,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+359,UX-3,"Are the technological, social, physical and temporal criteria that allow your users to reach their goal and limit the digital divide taken into account?",45,Design,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+360,UX-3,Does the service work with weak connections?,45,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+361,UX-3,Are the assistance service access mechanisms available and suitable for all audiences?,45,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+362,UX-3,"Are the obstacles to the use of digital technology (accessibility, technical, territorial) taken into account?",45,Design,NaN,NaN,NaN
+363,UX-3,Has a human fall-back been put in place to support the handling of the service?,45,Use,NaN,NaN,NaN
+364,UX-3,"In the definition of persoNaNe, have the target versions of devices, OS and browsers been taken into account?",45,Design,NaN,NaN,NaN
+365,UX-4,"Can any type of user easily know where he is in the service, by setting up an inclusive NaNvigation system?",46,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+366,UX-5,Are decision-making justified and supported by reliable indicators on the use of functioNaNlities throughout the service life cycle?,47,Administration,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+367,UX-5,"A policy / approach / a routine reduction and gradual prioritization of functioNaNlities, interactions and graphic elements, is it in place?",47,MainteNaNnce,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+368,UX-5,Are an archiving schedule and a lighter version of the old searchable content implemented?,47,End of life,(X / Y) * 100,Volume removed,Volume of iNaNctive content
+369,UX-5,"Are the stakeholders of the SEO service integrated, from the design phase?",47,Administration,NaN,NaN,NaN
+370,UX-5,"Is the practice of e-mailing considered, justified and reduced to what is strictly necessary?",47,Use,NaN,NaN,NaN
+371,UX-5,Has the aNaNlytics been limited to what is strictly necessary to optimize the service?,47,Use,NaN,NaN,NaN
+372,UX-5,"Are third-party services (social network feeds, social wall, carousels, google maps, etc.) not used for convenience to compensate for the lack of content production resources?",47,Design,NaN,NaN,NaN
+373,UX-6,Does the user experience take into account possible changes to the service (adding / removing features)? ,48,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+374,UX-6,"Is the dematerialization of the service complete, and if the production of paper documents is essential, is it designed to limit its impact to a minimum?",48,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+375,UX-6,Can the user control the activation of third-party solutions?,48,Use,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+376,UX-6,Does the use of the service make it possible to consider software or hardware configurations that have less impact on the environment?,48,Use,NaN,NaN,NaN
+377,UX-6,"Are all the components of the interface the subject of special attention in terms of NR impact, while respecting accessibility rules?
+",48,Acquisition,NaN,NaN,NaN
+378,UX-6,"Are solutions without a ""graphical"" interface planned for certain functioNaNlities, in order to offer alterNaNtives to visual design in the interface? ",48,Design,NaN,NaN,NaN
+379,UX-6,"Is an NR-oriented configuration space available to the user, to limit the number of presentation elements as much as possible? ",48,Use,NaN,NaN,NaN
+380,UX-7,"Is a systemic approach method in place, mastered by the actors and associated with tools?",49,Design,NaN,NaN,NaN
+381,UX-7,"Has the solution been prototyped upstream, with the user journey and interactions?",49,Design,NaN,NaN,NaN
+382,UX-7,Have user behavior and feedback been studied to best meet their needs?,49,Use,NaN,NaN,NaN
+383,UX-7,"Is the design documented (functioNaNlly and technically), the design deliverables must be intelligible by the project team and transferable to the development team?",49,Production,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+384,UX-7,Have the most frequent searches been investigated and addressed so that they are either cached or displayed to the user without sending unnecessary requests or clicks.,49,Use,(X / Y) * 100,Request of caches,Research requests
+385,UX-7,Has a continuous improvement process been implemented?,49,MainteNaNnce,(X / Y) * 100,Formalized = 100; planned = 75; Identified = 50; No = 0,100
+386,UX-7,Is the path taken to access the service as quick and as simple as possible?,49,Use,NaN,NaN,NaN
+387,UX-8,"Can the functioNaNlity be offered without calling exterNaNl scripts or libraries (JS, AJAX, ...)?",50,Design,(X / Y) * 100,Features aNaNlyzed,Candidate features
+388,UX-8,Can the NaNtive system features and components match as needed?,50,Design,(X / Y) * 100,Features aNaNlyzed,Candidate features
+389,UX-8,Are videos and animations only used when they add value to the user?,50,Design,(X / Y) * 100,Videos aNaNlyzed,Videos
+390,UX-8,Are the images optimized for their functions?,50,Production,(X / Y) * 100,Images aNaNlyzed,Pictures
+391,UX-8,Does the target functioNaNlity require calling an iFrame?,50,Production,NaN,NaN,NaN
+392,UX-9,Have the notification of all machine / user interactions been taken into account to systematically give the user the result of his actions and maNaNge errors?,51,Production,(X / Y) * 100,ANaNlyzed interactions,User interactions
+393,UX-9,Are each of the actions initiated by the user? is he informed of the scope and consequences of his actions?,51,Use,(X / Y) * 100,ANaNlyzed interactions,User interactions
+394,UX-9,Is the shared information useful to the user?,51,Use,NaN,NaN,NaN
+395,UX-9,Are user feedback on the evaluation of the service taken into account?,51,Use,NaN,NaN,NaN
+396,UX-9,Does the user have the means to simply verify the information exposed in the service?,51,Use,NaN,NaN,NaN
+397,UX-9,Are users informed that confidential information is being collected?,51,Use,NaN,NaN,NaN
